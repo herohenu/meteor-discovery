@@ -11,6 +11,9 @@ Template.postSubmit.events({
       if(err){
         return alert(err.reason);
       }
+
+      if (result.postExits)
+        alert('This link has already bee posted')
       Router.go('postPage',{_id:result._id});
     });
   }
