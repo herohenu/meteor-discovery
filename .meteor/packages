@@ -6,7 +6,7 @@
 
 meteor-platform
 #autopublish
-insecure
+#insecure  #not allow  insert valuse from client
 #get started
 twbs:bootstrap
 underscore
